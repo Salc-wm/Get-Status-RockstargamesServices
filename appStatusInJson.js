@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import fetchStatus from './rockstarGames-status.js'
+import { fetchStatus } from './rockstarGames-status.js'
 import { readFile, writeFile } from 'fs'
 
 let logName = './log.json'
